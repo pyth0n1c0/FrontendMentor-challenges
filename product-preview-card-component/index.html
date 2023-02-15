@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="pthonic">
+  <meta name="description" content="my frontend-mentor challenge solution">
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" />  
+  <title>Frontend Mentor | Product preview card component</title>
+
+<body>
+  <main>
+    <section class="card">
+      <picture>
+        <source class="card__image" srcset="images/image-product-mobile.jpg" media=" screen and (max-width: 700px)"/>
+      <img class="card__image" srcset="images/image-product-desktop.jpg">
+      </picture>
+      <section class="card__content">
+        <h2 class="card__product font-montserrat">Perfume</h2>
+          <h3 class="card__title font-fraunces">Gabrielle Essence Eau De Parfum</h3>
+          <p class="card__description font-montserrat">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="card__price">
+            <p class="new-price font-fraunces">$149.99</p>
+            <p class="old-price">$169.99</p>
+          </div>
+          <button class="card__btn font-montserrat">
+            <img src="images/icon-cart.svg">
+            <p>Add to Cart</p>
+          </button>
+        </section>
+      </section>
+    </main>
+  <footer class="attribution font-montserrat">
+    <p>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/pyth0n1c0"> Pythonic</a>.
+    </p>
+  </footer>
+</body>
+</html>
