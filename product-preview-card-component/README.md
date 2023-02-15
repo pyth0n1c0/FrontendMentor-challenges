@@ -1,6 +1,10 @@
 # Frontend Mentor - Single price grid component solution
 
-![Screenshot(Screenshot.png)]
+![Screenshot](Screenshot.png "Challenge screenshot")
+
+## Link Solution
+
+[Solution](https://pyth0n1c0.github.io/FrontendMentor-challenges/product-preview-card-component/ "Solution link")
 
 ## What I learned
 
